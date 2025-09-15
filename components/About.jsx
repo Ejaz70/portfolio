@@ -78,7 +78,7 @@ export default function About() {
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-purple-600" />
-              <span className="font-medium">Email:</span> ejaz70207@gmail.com
+              {/* <span className="font-medium">Email:</span> ejaz70207@gmail.com */}
             </div>
           </div>
         </div>

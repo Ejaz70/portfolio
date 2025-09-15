@@ -18,8 +18,8 @@ export default function ContactSection() {
             </p>
             <div className="flex gap-4 text-2xl ">
               <a href="https://github.com/Ejaz70" target="_blank" className="hover:text-blue-700"><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/ejaz-ahmad-994712262/" target="_blank" className="hover:text-blue-700"><FaLinkedin /></a>
-              <a href="https://twitter.com" target="_blank"className="hover:text-blue-700"><FaXTwitter /></a>
+              {/* <a href="https://www.linkedin.com/in/ejaz-ahmad-994712262/" target="_blank" className="hover:text-blue-700"><FaLinkedin /></a> */}
+              {/* <a href="https://twitter.com" target="_blank"className="hover:text-blue-700"><FaXTwitter /></a> */}
               <a href="" className="hover:text-blue-700"><FaEnvelope /></a>
             </div>
           </div>
