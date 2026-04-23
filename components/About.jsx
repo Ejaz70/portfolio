@@ -46,11 +46,11 @@ export default function About() {
           {/* Stats */}
           <div className="flex gap-6">
             <div>
-              <h4 className="text-3xl font-bold text-purple-600">2+</h4>
+              <h4 className="text-3xl font-bold text-purple-600">5+</h4>
               <p className="text-sm">Years Experience</p>
             </div>
             <div>
-              <h4 className="text-3xl font-bold text-purple-600">7+</h4>
+              <h4 className="text-3xl font-bold text-purple-600">11+</h4>
               <p className="text-sm">Projects Completed</p>
             </div>
             <div>

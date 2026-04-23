@@ -19,9 +19,23 @@ export const metadata = {
   },
 };
 
+const themeInitScript = `
+  (function () {
+    try {
+      var savedTheme = localStorage.getItem("theme");
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var shouldUseDark = savedTheme ? savedTheme === "dark" : prefersDark;
+      document.documentElement.classList.toggle("dark", shouldUseDark);
+    } catch (e) {}
+  })();
+`;
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

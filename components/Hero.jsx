@@ -53,7 +53,7 @@ export default function Hero() {
             Say Hello
           </button>
           <a
-            href="https://drive.google.com/file/d/1TtewRuB-eG7yCpOUTi6BdR1QHD-__Ee7/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1PWY5GQKGA6GD5hmCcoY7wAmepwZ_uAEd/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-purple-600 text-purple-600 px-6 py-3 rounded-lg hover:bg-purple-600 transition hover:text-white text-center"
